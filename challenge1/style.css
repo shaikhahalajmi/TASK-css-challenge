@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(43, 9, 76);
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 300px;
+}
+
+h1 {
+  font-family: HarryPotter;
+  font-size: 60px;
+}
+
+@font-face {
+  font-family: HarryPotter;
+  src: url(/TASK-css-challenge/assets/font/HARRYP__.TTF);
+}
