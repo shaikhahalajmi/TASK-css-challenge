@@ -1,11 +1,23 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .head {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgba(145, 104, 184, 0.779);
+  color: azure;
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: beige;
+  color: rgb(74, 74, 160);
+  overflow: auto;
 }
 
 /* This is a gift - Does not need editing */

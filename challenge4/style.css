@@ -1,17 +1,51 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(35, 11, 58);
+  /* text-align: center;
+  align-content: center; */
 }
 .container {
+  /* background-color: green; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .movie-card {
+  /* background-color: red; */
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
 }
 .movie-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: 100% 0%;
 }
 .movie-details-container {
+  /* background-color: blue; */
 }
 .descriptions {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  text-align: left;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
 }
 
+.movie-title {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 /*A gift from us!*/
 .movie-shadow {
   /*
@@ -26,6 +60,4 @@ body {
     rgba(0, 0, 0, 0.75) 0%,
     rgba(0, 0, 0, 0) 100%
   );
-}
-.movie-title {
 }
